@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidAppThree</string>
+    <string name="img_preview">Image Preview</string>
+    <string name="img_lollipop">Lollipop</string>
+    <string name="img_marshmallow">Marshmallow</string>
+    <string name="img_nougat">Nougat</string>
+</resources>

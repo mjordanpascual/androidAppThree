@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fc2a08"
+        >
+
+        <ImageView
+            android:id="@+id/ivPreview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="#fff"
+            android:contentDescription="@string/img_preview"
+            tools:ignore="ImageContrastCheck" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="changeImage"
+        android:layout_marginTop="10dp"
+        android:background="#fca908" >
+
+        <ImageView
+            android:id="@+id/iv_elsa"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="60dp"
+            android:contentDescription="@string/img_lollipop"
+            android:onClick="changeImage"
+            android:src="@drawable/lollipop"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/iv_anna"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/img_marshmallow"
+            android:onClick="changeImage"
+            android:src="@drawable/marshmallow"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/iv_olaf"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:onClick="changeImage"
+            android:contentDescription="@string/img_nougat"
+            android:src="@drawable/nougat"
+            tools:ignore="ImageContrastCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>

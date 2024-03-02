@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable lollipop
+drawable marshmallow
+drawable nougat
+id ivPreview
+id iv_anna
+id iv_elsa
+id iv_olaf
+id scrollView1
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string img_lollipop
+string img_marshmallow
+string img_nougat
+string img_preview
+style Base.Theme.AndroidAppThree
+style Theme.AndroidAppThree
+xml backup_rules
+xml data_extraction_rules
